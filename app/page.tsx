@@ -23,7 +23,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly. really?</li>
         </ol>
-        <Link href="/app/test"> {/* Specify the path to test.tsx */}
+        <Link href="/app/test.jsx"> {/* Specify the path to test.tsx */}
         <a>Go to Test Page</a> {/* This will be your button */}
         </Link>
 

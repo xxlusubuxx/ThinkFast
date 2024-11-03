@@ -21,10 +21,10 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Save and see your changes instantly. really?</li>
+          <li>Save and see your changes instantly.</li>
         </ol>
         <Link href="/test"> {/* Specify the path to test.tsx */}
-        <a>Go to Test Page</a> {/* This will be your button */}
+        <a>Go to Test Page (beta 1.2)</a> {/* This will be your button */}
         </Link>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">

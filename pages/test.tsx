@@ -10,14 +10,12 @@ const Welcome: React.FC = () => {
   }, []);
 
   return (
-    <div
-      style={{
+    <div className="flex justify-center items-center h-screen">
+      <h1 className="text-4xl font-bold" style={{
         background: 'purple',
-        opacity: fadeIn ? 1 : 0, // Set opacity based on fade-in state
-        transition: 'opacity 1s ease', // Smooth transition
-      }}
-    >
-      <h1>Welcome!</h1>
+        opacity: fadeIn ? 2 : 0, // Set opacity based on fade-in state
+        transition: 'opacity 2s ease', // Smooth transition
+      }}>Hello, World!</h1>
     </div>
   );
 };

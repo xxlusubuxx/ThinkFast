@@ -1,4 +1,5 @@
 import {leftMenu} from '@/constants'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export function LeftBar() {
@@ -10,7 +11,7 @@ export function LeftBar() {
                 href={link.link}
                 key={link.label}
                 className = {`leftsidebar_${link.label}`}
-            >
+            >   
                 <p>{link.label}</p>
             </Link>
         ))}

@@ -15,7 +15,7 @@ main {
 }
 
 .sidemenu {
-    @apply bg-purple-900 w-32 sm:w-1/5 text-white p-4 text-left;
+    @apply bg-purple-900 w-32 sm:w-1/5 text-white p-8 text-left;
 }
 
 .interaction {
@@ -23,5 +23,5 @@ main {
 }
 
 p {
-    @apply cursor-pointer my-4
+    @apply cursor-pointer my-24
 }
